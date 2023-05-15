@@ -1,0 +1,12 @@
+---
+- name: Deploy Backend
+  hosts: all
+  tasks:
+    - name: apply configmap
+      shell: kubectl apply -f /home/shivam/Downloads/oesbackend/mysql-configmap.yaml
+    - name: apply secrets
+      shell: kubectl apply -f /home/shivam/Downloads/oesbackend/mysql-secrets.yaml
+    - name: apply mysql
+      shell: kubectl apply -f /home/shivam/Downloads/oesbackend/mysql-deployment.yaml
+    - name: apply app
+      shell: kubectl apply -f /home/shivam/Downloads/oesbackend/app-deployment.yaml

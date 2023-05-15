@@ -1,0 +1,14 @@
+Mon, 15 May 2023 14:06:37 GMT GET /admin/admin 200 - 0.197 ms Admin details fetched successfully
+Mon, 15 May 2023 14:42:26 GMT GET /admin/admin 200 - 0.031 ms Admin details fetched successfully
+Mon, 15 May 2023 14:47:52 GMT DELETE /exam/4 204 - 0.268 ms Exam with id 4 deleted successfully
+Mon, 15 May 2023 14:47:52 GMT GET /exam 200 - 0.166 ms All exams fetched successfully
+Mon, 15 May 2023 15:12:41 GMT GET /subject 200 - 0.009 ms All subjects retrieved successfully
+Mon, 15 May 2023 15:12:42 GMT GET /exam 200 - 0.007 ms All exams fetched successfully
+Mon, 15 May 2023 15:13:48 GMT GET /user/1 200 - 0.061 ms User details fetched successfully
+Mon, 15 May 2023 15:13:50 GMT GET /subject 200 - 0.012 ms All subjects retrieved successfully
+Mon, 15 May 2023 15:13:58 GMT GET /exam 200 - 0.009 ms All exams fetched successfully
+Mon, 15 May 2023 15:14:23 GMT GET /subject 200 - 0.002 ms All subjects retrieved successfully
+Mon, 15 May 2023 15:14:24 GMT GET /exam 200 - 0.003 ms All exams fetched successfully
+Mon, 15 May 2023 15:24:29 GMT GET /subject 200 - 0.071 ms All subjects retrieved successfully
+Mon, 15 May 2023 15:24:31 GMT GET /exam 200 - 0.008 ms All exams fetched successfully
+Mon, 15 May 2023 15:24:33 GMT GET /exam/1/question 200 - 0.011 ms All questions of exam 1 fetched successfully
